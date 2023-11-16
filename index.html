@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>W3.CSS Template</title>
+    <title>Family day</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -17,7 +17,7 @@
         }
 
         .bgimg {
-            background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+            background-image: url('./forest-bridge.jpg');
             min-height: 100%;
             background-position: center;
             background-size: cover;
@@ -26,6 +26,27 @@
         .w3-animate-top {
             color: white;
             text-align: center;
+        }
+
+        .scan-img {
+            width: 300px;
+            max-width: 70%;
+            margin: 10px;
+        }
+
+        .img-wrapper {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .title-label {
+            color: white;
+            margin: 10px;
+            padding: 10px;
+            font-size: 24px;
+            display: block;
         }
     </style>
 </head>
@@ -37,9 +58,13 @@
             Logo
         </div>
         <div class="w3-display-middle">
-            <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+            <h1 class="w3-jumbo w3-animate-top">Family Day</h1>
+            <h2 class="w3-jumbo w3-animate-top">Coming soon...</h1>
             <hr class="w3-border-grey" style="margin:auto;width:40%">
-            <p class="w3-large w3-center">35 days left</p>
+            <div class="img-wrapper">
+                <label class="title-label">Scan and launch</label>
+                <img src="./family-day.png" alt="scan to launch to website" class="scan-img" />
+            </div>
         </div>
     </div>
 
